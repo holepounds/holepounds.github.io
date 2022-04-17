@@ -1,29 +1,100 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
+<!DOCTYPE html>
 <head>
- <title>My first styled page</title>
-
-  <link rel="stylesheet" href="0318mystyle.css">
-
+  <meta charset="utf-8">
+  <link href="css.css" rel="stylesheet" type="text/css">
+  <title>测测你的动森岛民资深度</title>
+  <script src="js.js"></script>
 </head>
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
- <li><a href="https://space.bilibili.com/8009301">Home page</a>
- <li><a href="musings.html">Musings</a>
- <li><a href="town.html">My town</a>
- <li><a href="links.html">Links</a>
-</ul>
-<!-- Main content -->
-<h1>My first styled page</h1>
-<p>Welcome to my styled page!
-<p>It lacks images, but at least it has style.
-And it has links, even if they don't go
-anywhere&hellip;
-<p>There should be more here, but I don't know
-what yet.
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 5 April 2004<br>
- by myself.</address>
+
+<body onload="sayHello()">
+
+  <div class="container1">
+    <img src="img/top1.png" style="width:100%; height:100%;">
+  </div>
+
+  <div class="container2">
+    <div>
+    <p style="color:brown">不知不觉，《集合啦！动物森友会》已经在任天堂Switch平台上发售两年多了。<br/>
+      无论你是否已经上岛，都可以来这里测测你的岛民等级狸！<br/>
+      点击选项前的圆圈进行答题，每道题目只有一个正确选项。<br/>
+      正确答案越多，评价也越高狸。<br/>
+      该测试只作娱乐，毕竟动森里的生活可比这丰富得多！</p>
+      <hr color=brown>
+    <br/>
+    </div>
+
+    <h1 class="q">Q1.下图左侧的小动物NPC叫什么名字？</h1>
+    <img src="img/Q1.jpg" style="width:100%; height:100%; border-radius:10px">
+    <br/>
+    <label><input type="radio" name="A1" value="0"/>周杰伦</label>
+    <br/>
+    <label><input type="radio" name="A1" value="1"/>K.K.</label>
+    <br/>
+    <label><input type="radio" name="A1" value="0"/>大白狗</label>
+    <br/>
+    <label><input type="radio" name="A1" value="0"/>Dog aka Saturday</label>
+    <br/>
+    <hr color=brown>
+    <br/>
+
+    <h1 class="q">Q2.博物馆不接收哪类藏品的捐献？</h1>
+    <img src="img/Q2.jpg" style="width:100%; height:100%; border-radius:10px">
+    <br/>
+    <label><input type="radio" name="A2" value="0"/>艺术品</label>
+    <br/>
+    <label><input type="radio" name="A2" value="0"/>昆虫</label>
+    <br/>
+    <label><input type="radio" name="A2" value="0"/>鱼类</label>
+    <br/>
+    <label><input type="radio" name="A2" value="1"/>花种</label>
+    <br/>
+    <hr color=brown>
+    <br/>
+
+    <h1 class="q">Q3.请选择应该填入的词语：不是鱼露，而是____？</h1>
+    <img src="img/Q3.jpg" style="width:100%; height:100%; border-radius:10px">
+    <br/>
+    <label><input type="radio" name="A3" value="0"/>玉露</label>
+    <br/>
+    <label><input type="radio" name="A3" value="1"/>鲈鱼</label>
+    <br/>
+    <label><input type="radio" name="A3" value="0"/>雨露</label>
+    <br/>
+    <label><input type="radio" name="A3" value="0"/>卤鱼</label>
+    <br/>
+    <hr color=brown>
+    <br/>
+
+    <h1 class="q">Q4.想要打开下图的动作反应菜单，应该按Switch的哪个键？</h1>
+    <img src="img/Q4.jpg" style="width:100%; height:100%; border-radius:10px">
+    <br/>
+    <label><input type="radio" name="A4" value="0"/>X键</label>
+    <br/>
+    <label><input type="radio" name="A4" value="0"/>◀键</label>
+    <br/>
+    <label><input type="radio" name="A4" value="1"/>ZR键</label>
+    <br/>
+    <label><input type="radio" name="A4" value="0"/>L键</label>
+    <br/>
+    <hr color=brown>
+    <br/>
+
+    <h1 class="q">Q5.西施惠在广播中曾提到她在洗衣机后面找到了什么东西？</h1>
+    <img src="img/Q5.jpg" style="width:100%; height:100%; border-radius:10px">
+    <br/>
+    <label><input type="radio" name="A5" value="1"/>袜子</label>
+    <br/>
+    <label><input type="radio" name="A5" value="0"/>背心</label>
+    <br/>
+    <label><input type="radio" name="A5" value="0"/>手套</label>
+    <br/>
+    <label><input type="radio" name="A5" value="0"/>帽子</label>
+    <br/>
+
+    <div class="button">
+    <a type="button" onclick="scorecounting()",class="button" >查看测试结果</a>
+    </div>
+
+    </div>
 </body>
 </html>
