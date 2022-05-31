@@ -12,8 +12,8 @@ p{
   text-align:center;
 }
 .btn{
-  width:282px;
-  height:91px;
+  height:auto;
+  width:100%;
   border-radius:5px;
 }
 .btn:hover {
