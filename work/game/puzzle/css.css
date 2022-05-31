@@ -1,0 +1,40 @@
+h1{
+	font-weight:bold;
+	font-size:20px;
+	}
+
+body{
+	font-family:思源黑体 CN,light;
+	background-image:url("img/back.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+  }
+
+#container1{
+	margin:0px 5%;
+	padding:0px 10px;
+	}
+
+.container2{
+	margin:-150px 20% 100px;
+	background-color:white;
+	border:5px dashed brown;
+	border-radius:30px/50px;
+	padding:50px 8%;
+	position:relative;
+	}
+
+#button{
+	margin:50px;
+  padding:20px;
+  text-align:center;
+  background-color:white;
+  color:brown;
+  border:solid 2px brown;
+  border-radius:5px;
+	}
+
+#button:hover {
+	background-color:brown;
+	color:white;
+  }

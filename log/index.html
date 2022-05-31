@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link href="css.css" rel="stylesheet" type="text/css">
+
+    <title>小猴之家-日记</title>
+    <link rel="icon" href="../monkey.png"sizes="16*16">
+  </head>
+
+  <body>
+    <!-- 导航 -->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background:rgb(113, 62, 18)">
+    <!-- logo -->
+      <a class="navbar-brand" href="../index.html" style="margin-left:20px"><img src="../logo.png" style="width:200px;height:auto"></a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" style="margin-right:20px">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav"style="margin-left:20px">
+          <li class="nav-item"> <a class="nav-link" href="../introduction/index.html">介绍</a></li>
+          <li class="nav-item"> <a class="nav-link active" href="#">日记</a></li>
+          <li class="nav-item"> <a class="nav-link" href="../work/index.html">作品</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 顶部说明 -->
+    <div class="row">
+      <div class="col-sm-12" style="padding:0">
+        <h1 style="text-align:center;font-weight:bolder">日常记录</h1>
+        <img src="riji.png" style="width:40%;margin:0 30%">
+        <p>
+          ▼<br/>日记页会不定期更新<br/>
+          一些小猴子的日常生活记录哦。<br/>
+          <hr>
+        </p>
+        <p>向下滑动查看日记</p>
+      </div>
+    </div>
+
+    <!-- 日记 -->
+    <div class="row" style="margin-top:100px">
+      <!-- 正文 -->
+      <div class="col-sm-9">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-2204" role="tabpanel" aria-labelledby="list-2204-list">
+            <h2>4月22日</h2>今晚上课接触到了bootstrap，好牛！！虽然自己在上次作业中用百分比实现了不同窗口大小的适应，但这种方式可不能改变堆叠耶！准备用它来构建我的小猴之家~<hr>
+          </div>
+          <div class="tab-pane fade" id="list-2205" role="tabpanel" aria-labelledby="list-2205-list">
+            <h2>5月29日</h2>停电了，摸黑写网站代码。<img src="2205/0529.jpg"><hr>
+            <h2>5月31日</h2>ddl最后一天，小猴之家建设冲刺！！<hr>
+          </div>
+        </div>
+      </div>
+      <!-- 月份跳转 -->
+      <div class="col-sm-3">
+        <p style="font-size:15px;font-weight:bold">点击月份展示每月记录<hr></p>
+        <p style="font-size:15px;font-weight:bold">2022年</p>
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-2204-list" data-bs-toggle="list" href="#list-2204" role="tab" aria-controls="list-2204">4月</a>
+          <a class="list-group-item list-group-item-action" id="list-2205-list" data-bs-toggle="list" href="#list-2205" role="tab" aria-controls="list-2205">5月</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer style="margin-top: 8%;height:100px;padding:25px">
+      <p style="color:white;">©小猴之家</p>
+    </footer>
+
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js">  </script>
+
+  </body>
+</html>
